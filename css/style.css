@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.12em;
+}
+
+.motcache{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card.bg-info{
+    width: 450px;
+    height: 500px;
+}
+
+.card.bg-primary{
+    width: 450px;
+    height: 500px;
+}
+
+.affichage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.partieEnCours{
+    display: flex;
+    flex-direction: column;
+}
+
+select{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+input{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.pendu{
+    width: 250px;
+    height: 250px;
+}
+
+.lost{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.win{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.boutons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bouton{
+    display: flex;
+    margin-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.restart-link{
+    background-color: rgba(29, 29, 202, 0.418);
+    border:1px solid black;
+    height: fit-content;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.reinit-link{
+    background-color: rgba(29, 29, 202, 0.418);
+    border:1px solid black;
+    height: fit-content;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
